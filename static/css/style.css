@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.sobreposto {
+  z-index: 1000; /* Valor alto o suficiente para sobrepor todos os outros elementos */
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.fundo{
+height: 100%;
+}
+
+.fundo-foto{
+    height: 76.5%;
+}
+
+.header-bg {
+   background: url(https://annedece.sirv.com/Images/Wave-10s-1920px.png) no-repeat center top;
+   margin: 0;
+   height: 100%;
+}
+a {
+	color: #222;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.kk {
+	background-color: #FFF;
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.kk i {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+@media screen and (max-width: 992px) {
+.mobile-bg {
+	background-color:#74a3fa;
+}
+}
